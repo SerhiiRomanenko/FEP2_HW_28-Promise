@@ -54,9 +54,9 @@ a {
     border-bottom: 1px solid white;
   }
 
-&__slider {
-  margin-bottom: 25px;
-}
+  &__slider {
+    margin-bottom: 25px;
+  }
 
   &__navigation {
     display: flex;
@@ -71,14 +71,21 @@ a {
     display: flex;
     justify-content: center;
   }
+
   &__paginationItem {
     color: black;
   }
 }
 
+.pagin__active {
+  color: #ff277a;
+  background-color: rgba(134, 153, 157, 0.99);
+}
+
 .card {
   margin: 0 auto;
 }
+
 .g-3 {
   justify-content: space-around;
 }
